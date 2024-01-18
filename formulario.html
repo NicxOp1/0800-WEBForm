@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<h2>Solicitud de Reunión</h2>
+
+<div class="container">
+  <form action="">
+    <label for="name" class="subtitle">Nombre y apellido *</label>
+    <input type="text" id="name" name="name" placeholder="Tu nombre y apellido..">
+
+    <label for="email" class="subtitle">Correo electrónico *</label>
+    <input type="text" id="email" name="email" placeholder="Tu correo electrónico..">
+
+    <label for="phone" class="subtitle">Numero de teléfono *</label>
+    <input type="text" id="phone" name="phone" placeholder="Tu número de teléfono..">
+
+
+    <label for="problem" class="subtitle">Que tipo de problema percibís sobre tu marca?</label>
+    <textarea id="problem" name="problem" placeholder="Describe el problema.." style="height:200px"></textarea>
+
+    <label for="queries" class="subtitle">¿Cómo manejas las consultas frecuentes de los clientes? *</label>
+    <select id="queries" name="queries">
+      <option value="no_interesa">No me interesa responderles</option>
+      <option value="personalmente">Respondo personalmente a cada pregunta</option>
+      <option value="equipo">Tengo un equipo/alguien que se encarga de eso</option>
+      <option value="otro">Otro</option>
+    </select>
+
+    <label for="queries2" class="subtitle">¿Estás satisfecho con cuántas personas pueden encontrar tu sitio web en Internet? *</label>
+    <select id="queries2" name="queries2">
+      <option value="Si-muchas">Sí, muchas personas pueden encontrar mi sitio web</option>
+      <option value="Algunas-pueden">Algunas personas pueden encontrar mi sitio web, pero me gustaría que más personas pudieran hacerlo</option>
+      <option value="No.muy-pocas">No, muy pocas personas pueden encontrar mi sitio web</option>
+      <option value="IDK">No estoy seguro</option>
+    </select>
+
+    <input class="enter" type="submit" value="Enviar">
+  </form>
+</div>
+
+</body>
+</html>
